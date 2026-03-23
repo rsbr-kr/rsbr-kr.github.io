@@ -62,7 +62,20 @@
 
         <div class="hero-preview">
           <div class="phone-frame">
-            <img src="assets/app-preview.png" alt="Bolt Currency Converter preview screen">
+            <div class="preview-badge" data-i18n="previewBadge">실제 앱 시연 영상</div>
+            <video
+              class="app-demo-video"
+              src="assets/app-demo-trimmed.mp4"
+              poster="assets/app-demo-poster.png"
+              autoplay
+              muted
+              loop
+              playsinline
+              controls
+              preload="metadata"
+            >
+              <a href="assets/app-demo-trimmed.mp4" data-i18n="previewFallback">앱 시연 영상을 다운로드해 확인하기</a>
+            </video>
           </div>
         </div>
       </section>
@@ -139,6 +152,8 @@
         featureTwoBody: "원화, 달러, 유로를 포함한 다양한 통화를 직관적으로 선택할 수 있습니다.",
         featureThreeTitle: "가벼운 사용성",
         featureThreeBody: "복잡한 메뉴 없이 곧바로 계산에 집중할 수 있는 간결한 인터페이스를 제공합니다.",
+        previewBadge: "실제 앱 시연 영상",
+        previewFallback: "앱 시연 영상을 다운로드해 확인하기",
         helpLabel: "Support",
         helpTitle: "도움이 필요하신가요?",
         helpDescription: "앱 사용 중 문의 사항이나 오류 제보가 있다면 아래 연락처로 알려주세요. 가능한 한 빠르게 확인하겠습니다.",
@@ -173,6 +188,8 @@
         featureTwoBody: "Choose among KRW, USD, EUR, and other currencies through a simple and intuitive flow.",
         featureThreeTitle: "Lightweight experience",
         featureThreeBody: "Focus on calculation right away with a compact interface and no unnecessary steps.",
+        previewBadge: "Live app demo",
+        previewFallback: "Download the app demo video",
         helpLabel: "Support",
         helpTitle: "Need help?",
         helpDescription: "If you run into an issue or want to send feedback, contact us using the support details below.",
